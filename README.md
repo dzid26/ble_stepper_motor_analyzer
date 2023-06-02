@@ -109,6 +109,8 @@ Open source license | Creative Commons CC0.
 
 ## Installing the device in your 3D printer
 
+Check the installation video guide here:
+
 1. Print a device carrier using a 3D printer (STL model included here) and attach the device to the carrier using two pieces of 3M VHB 1mm sticky tape or similar.
 2. Attach the device carrier to the 3D printer using an additional piece of 3M VHB tape.
 3. Connect the external antenna and attach the antenna to the outside of the printer.
@@ -250,10 +252,6 @@ flash.bat
 5. Connect an antenna, run an analyzer program as explain above and that you see some signals from the device. The LED on the device will blink faster to indicate an active connection.
 6. The device is now ready for installation in the 3D printer or for shipping to your customers.
 
-* **Schematic**: https://github.com/zapta/ble_stepper_motor_analyzer/blob/main/hardware/stepper_monitor.pdf
-* **JLCPCB production files**: https://github.com/zapta/ble_stepper_motor_analyzer/tree/main/hardware/JLCPCB
-
-
 
 > **_NOTE:_**  Resistor R16 acts as a jumper and allows to disconnect the 3.3V supply from the rest of the electronics. This is useful when diagnosing power issues.
 
@@ -279,7 +277,7 @@ The external antenna should  satisfy these requirements:
 
 ## 3D Models
 
-3D Models of the carrier and a cover for shipping are available at https://github.com/zapta/ble_stepper_motor_analyzer/tree/main/3D
+3D Models of the carrier and a cover for shipping are available at https://github.com/AdamV3D/ble_stepper_motor_analyser/tree/main/3D
 
 <p align="center">
   <img src="./www/carrier.jpg" style="width: 200px;" />
@@ -357,18 +355,6 @@ A: Of course, contribution of code, documentation, test programs or ideas are we
 **Q**: How far can my computer be away from my 3D printer? 
 
 **A**: Bluetooth BLE radio communication is intended for short distances of a few yards. If the radio link will not be reliable, the analyzer program will detect data gaps and will report it in its console log.
-
----
-
-**Q**: This system can be a great idea for a Crowd Compute campaign. Can I do that? 
-
-**A**: Of course. The design is in public domain and commercial usages are encouraged. Attribution and sharing of modification you make are not required. 
-
----
-
-**Q**: Do you sell boards? 
-
-**A**: We may produce a limited numbers of boards from time to time, but we also believe that others can do a better job job of mass producing and making it available to the community.
 
 ---
 
