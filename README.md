@@ -365,18 +365,6 @@ A: Of course, contribution of code, documentation, test programs or ideas are we
 
 ---
 
-**Q**: This system can be a great idea for a Crowd Compute campaign. Can I do that? 
-
-**A**: Of course. The design is in public domain and commercial usages are encouraged. Attribution and sharing of modification you make are not required. 
-
----
-
-**Q**: Do you sell boards? 
-
-**A**: We may produce a limited numbers of boards from time to time, but we also believe that others can do a better job job of mass producing and making it available to the community.
-
----
-
 **Q**: Can the external antenna be eliminated to simplify installation and reduce cost? 
 
 **A**: Yes. We believe that the ESP module ESP32-WROOM-32D-N4 which uses an internal antenna should be a drop-in replacement though we did not have the chance yet to test it.
