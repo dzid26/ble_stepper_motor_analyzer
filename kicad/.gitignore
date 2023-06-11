@@ -1,13 +1,29 @@
-fp-info-cache
-stepper_monitor.kicad_sch-bak
-stepper_monitor.sch-bak
-stepper_monitor.kicad_pcb-bak
-stepper_monitor-backups
-_autosave-stepper_monitor.sch
-stepper_monitor.bak
-stepper_monitor.bck
-production
-production.zip
-_autosave-*
-*auto_saved_files*
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
 
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*.kicad_prl
+*.sch-bak
+*~
+*auto_save*
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files
+*.xml
+*.csv
