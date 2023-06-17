@@ -56,12 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|6879600|-26157400|d423a42a-43b4-4a5f-9a3f-56da9b6a2599|f9864f6a-10ff-4414-84b2-a3d33c7429ec",
-        "hole_clearance|6879600|-26357400|d423a42a-43b4-4a5f-9a3f-56da9b6a2599|73f8165e-48b1-4b34-8303-56aaa9e44419",
-        "hole_clearance|6879600|-31757400|81a85192-3496-42fc-9b69-0fe798395f13|7b83c91c-760b-4c9e-9ea2-8cce3f484aa0",
-        "hole_clearance|6879600|-31957400|81a85192-3496-42fc-9b69-0fe798395f13|3eb408d3-24dd-4a7e-a428-8294041abb83"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -72,7 +67,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "warning",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -196,7 +191,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.0,
+          "diameter": 0.5,
           "drill": 0.3
         },
         {
@@ -418,7 +413,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "error",
+      "simulation_model_issue": "warning",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
