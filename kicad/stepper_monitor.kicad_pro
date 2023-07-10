@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -56,12 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "hole_clearance|6920000|-24700000|f9864f6a-10ff-4414-84b2-a3d33c7429ec|d423a42a-43b4-4a5f-9a3f-56da9b6a2599",
-        "hole_clearance|6920000|-24900000|73f8165e-48b1-4b34-8303-56aaa9e44419|d423a42a-43b4-4a5f-9a3f-56da9b6a2599",
-        "hole_clearance|6920000|-30300000|7b83c91c-760b-4c9e-9ea2-8cce3f484aa0|81a85192-3496-42fc-9b69-0fe798395f13",
-        "hole_clearance|6920000|-30500000|3eb408d3-24dd-4a7e-a428-8294041abb83|81a85192-3496-42fc-9b69-0fe798395f13"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -399,9 +394,9 @@
       "different_unit_net": "error",
       "duplicate_reference": "error",
       "duplicate_sheet_names": "error",
-      "endpoint_off_grid": "warning",
+      "endpoint_off_grid": "ignore",
       "extra_units": "error",
-      "global_label_dangling": "warning",
+      "global_label_dangling": "error",
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "lib_symbol_issues": "warning",
@@ -418,7 +413,7 @@
       "pin_to_pin": "error",
       "power_pin_not_driven": "ignore",
       "similar_labels": "warning",
-      "simulation_model_issue": "warning",
+      "simulation_model_issue": "ignore",
       "unannotated": "error",
       "unit_value_mismatch": "error",
       "unresolved_variable": "error",
