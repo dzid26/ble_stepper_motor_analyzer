@@ -4676,7 +4676,7 @@
     (property "Value" "ESP32-WROOM-32U-N4" (at 240.665 24.7396 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "stepper_monitor:ESP32-WROOM-32UE" (at 240.03 22.606 0)
+    (property "Footprint" "stepper_monitor:ESP32-WROOM-32E" (at 240.03 22.606 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf" (at 143.51 73.406 0)
